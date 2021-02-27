@@ -19,5 +19,5 @@ document.getElementById("upcoming").addEventListener("click", function(){
     document.getElementById("slide__prev__playing").style.display = "none";
     document.getElementById("slide__next__playing").style.display = "none";
     document.getElementById("slide__prev__upcoming").style.display = "inline-block";
-    document.getElementById("slide__next__upcoming").style.display = "ninline-block";
+    document.getElementById("slide__next__upcoming").style.display = "inline-block";
 })

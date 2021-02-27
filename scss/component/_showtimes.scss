@@ -75,11 +75,8 @@
             color: gray;
             font-size: 30px;
         }
-        #slide__prev__upcoming, #slide__next__upcoming{
-            display: none;
-        }
         @media screen and (max-width: 991px) {
-            #slide__prev, #slide__next{
+            #slide__prev__playing, #slide__next__playing, #slide__prev__upcoming, #slide__next__upcoming{
                 opacity: 0;
             }
         }

@@ -378,12 +378,8 @@ header .bg__black {
   font-size: 30px;
 }
 
-.showtimes .content #slide__prev__upcoming, .showtimes .content #slide__next__upcoming {
-  display: none;
-}
-
 @media screen and (max-width: 991px) {
-  .showtimes .content #slide__prev, .showtimes .content #slide__next {
+  .showtimes .content #slide__prev__playing, .showtimes .content #slide__next__playing, .showtimes .content #slide__prev__upcoming, .showtimes .content #slide__next__upcoming {
     opacity: 0;
   }
 }
