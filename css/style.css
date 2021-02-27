@@ -400,6 +400,7 @@ header .bg__black {
 
 .showtimes .content .event__content .item {
   margin-bottom: 40px;
+  margin-right: 0;
 }
 
 @media screen and (max-width: 599px) {
