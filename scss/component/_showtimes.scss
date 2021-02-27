@@ -54,7 +54,7 @@
 
         position: relative;
 
-        #slide__prev{
+        #slide__prev__playing, #slide__prev__upcoming{
             position: absolute;
             left: -4%;
             top: 50%;
@@ -65,7 +65,7 @@
             font-size: 30px;
 
         }
-        #slide__next{
+        #slide__next__playing, #slide__next__upcoming{
             position: absolute;
             right: -4%;
             top: 50%;
@@ -74,6 +74,9 @@
             background: transparent;
             color: gray;
             font-size: 30px;
+        }
+        #slide__prev__upcoming, #slide__next__upcoming{
+            display: none;
         }
         @media screen and (max-width: 991px) {
             #slide__prev, #slide__next{

@@ -187,12 +187,19 @@
                     <h2 id="playing" class="active">Đang Chiếu</h2>
                     <h2 id="upcoming">Sắp Chiếu</h2>
                 </div>
-                <button id="slide__prev">
+                <button id="slide__prev__upcoming">
                     <i class="fas fa-chevron-left"></i>
                 </button>
-                <button id="slide__next">
+                <button id="slide__next__upcoming">
                     <i class="fas fa-chevron-right"></i>
                 </button>
+                <button id="slide__prev__playing">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button id="slide__next__playing">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+                
                 <div class="event__content" id="playing__content">
                     <div class="slide__item">
                         <div class="item">
@@ -1380,14 +1387,14 @@
     <script src="./js/slick.min.js"></script>
     <script>
         $('#playing__content').slick({
-            prevArrow: '#slide__prev',
-            nextArrow: '#slide__next',
+            prevArrow: '#slide__prev__playing',
+            nextArrow: '#slide__next__playing',
         });
     </script>
     <script>
         $('#upcoming__content').slick({
-            prevArrow: '#slide__prev',
-            nextArrow: '#slide__next',
+            prevArrow: '#slide__prev__upcoming',
+            nextArrow: '#slide__next__upcoming',
         });
     </script>
 

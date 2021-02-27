@@ -356,7 +356,7 @@ header .bg__black {
   position: relative;
 }
 
-.showtimes .content #slide__prev {
+.showtimes .content #slide__prev__playing, .showtimes .content #slide__prev__upcoming {
   position: absolute;
   left: -4%;
   top: 50%;
@@ -367,7 +367,7 @@ header .bg__black {
   font-size: 30px;
 }
 
-.showtimes .content #slide__next {
+.showtimes .content #slide__next__playing, .showtimes .content #slide__next__upcoming {
   position: absolute;
   right: -4%;
   top: 50%;
@@ -376,6 +376,10 @@ header .bg__black {
   background: transparent;
   color: gray;
   font-size: 30px;
+}
+
+.showtimes .content #slide__prev__upcoming, .showtimes .content #slide__next__upcoming {
+  display: none;
 }
 
 @media screen and (max-width: 991px) {
